@@ -135,7 +135,6 @@ ul.nav.navbar li a.w3ls-icon:hover {
 }
 .modal-header {
     border: none;
-    margin-bottom: 2em;
 	padding: 2em;
 }
 button.close {
@@ -494,6 +493,9 @@ p {
     background: #1F1F1F;
 }
 .footer p {
+    display:inline;
+    padding-left: 15%;
+    padding-right: 15%;
     color: #fff;
 	font-size: 1.1em;
 }

@@ -1584,7 +1584,7 @@ pre code {
 }
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 100rem;
   }
 }
 @media (min-width: 992px) {
@@ -6582,3 +6582,54 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+
+
+nav {
+  background: hsla(182, 70%, 52%, 1);
+  background: radial-gradient(circle, hsla(182, 70%, 52%, 1) 43%, hsla(237, 74%, 46%, 1) 85%);
+  background: -moz-radial-gradient(circle, hsla(182, 70%, 52%, 1) 43%, hsla(237, 74%, 46%, 1) 85%);
+  background: -webkit-radial-gradient(circle, hsla(182, 70%, 52%, 1) 43%, hsla(237, 74%, 46%, 1) 85%);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#2FD5DB", endColorstr="#1F28CE", GradientType=1);
+  color: ghostwhite;
+  padding: 0.5em 0;
+  /* Le menu a une position fixe lors de la descente dans la page */
+  text-align: center;
+  /* alignement du texte centré */
+  width: 100%;
+  /* largeur 100% de la fenêtre */
+  top: 0;
+  /* aligné à 0px du haut */
+  left: 0;
+  /* aligné à 0px de la gauche */
+}
+
+nav a {
+  padding: 0.5em 2em;
+  color: ghostwhite;
+  text-decoration: none;
+  height: 33px;
+}
+
+nav a:hover {
+  background: hsla(56, 81%, 46%, 1);
+  background: radial-gradient(circle, hsla(223, 68%, 68%, 1) 48%, rgba(0, 0, 0, 0) 85%);
+  background: -moz-radial-gradient(circle, hsla(223, 68%, 68%, 1) 48%, rgba(0, 0, 0, 0) 85%);
+  background: -webkit-radial-gradient(circle, hsla(223, 68%, 68%, 1) 48%, rgba(0, 0, 0, 0) 85%);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#D7CA16", endColorstr="#058B9A", GradientType=1);
+}
+
+.footer {
+  background: hsla(182, 70%, 52%, 1);
+  background: radial-gradient(circle, hsla(182, 70%, 52%, 1) 43%, hsla(237, 74%, 46%, 1) 85%);
+  background: -moz-radial-gradient(circle, hsla(182, 70%, 52%, 1) 43%, hsla(237, 74%, 46%, 1) 85%);
+  background: -webkit-radial-gradient(circle, hsla(182, 70%, 52%, 1) 43%, hsla(237, 74%, 46%, 1) 85%);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#2FD5DB", endColorstr="#1F28CE", GradientType=1);
+  color: ghostwhite;
+  display: flex;
+  align-content: center;
+  bottom: 0rem;
+  width: 100%;
+  position: absolute;
+
+}
