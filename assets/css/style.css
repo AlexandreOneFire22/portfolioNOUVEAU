@@ -64,6 +64,7 @@ a.topBotomBordersOut a:before, a.topBotomBordersOut a:after
 h1,h2,h3,h4,h5,h6{
 	margin:0;	
 	font-family: 'Text Me One', sans-serif;
+    color: #FFFFFF;
 }
 p{
 	margin:0;
@@ -1063,7 +1064,6 @@ p.agile-br {
 #resume .timeline-header p {
     font-family: "poppins-regular", sans-serif;
     font-size: 1.6rem;
-    color: #888888;
 }
 #resume .timeline-content {
     margin-left: 35%;
@@ -1078,7 +1078,6 @@ p.agile-br {
     display: block;
     height: 3px;
     width: 50px;
-    background: rgba(0, 0, 0, 0.2);
     position: absolute;
     left: 0;
     bottom: 0;
