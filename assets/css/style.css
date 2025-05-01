@@ -1163,7 +1163,15 @@ p.agile-br {
 }
 
 
-
+.projetCat{
+    font-size: 1.6em;
+    color: #1dadd3;
+    margin-top: 0.5em;
+    border-top: 1px dashed #484848;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    font-weight: 600;
+}
 
 
 
